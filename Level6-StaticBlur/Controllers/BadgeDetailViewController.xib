@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BadgeDetailViewController">
+            <connections>
+                <outlet property="badgeView" destination="5Q0-ue-Xbq" id="qt1-8y-udg"/>
+                <outlet property="courseView" destination="4G7-f7-HQf" id="PLs-QW-9Xg"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Q0-ue-Xbq">
+                    <rect key="frame" x="85" y="74" width="150" height="150"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4G7-f7-HQf">
+                    <rect key="frame" x="0.0" y="292" width="320" height="276"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="276" id="QpN-mk-jzU"/>
+                    </constraints>
+                    <dataDetectorType key="dataDetectorTypes"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5Q0-ue-Xbq" firstAttribute="top" secondItem="1" secondAttribute="top" constant="74" id="8YJ-bq-mcV"/>
+                <constraint firstItem="4G7-f7-HQf" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="FOk-2E-aAS"/>
+                <constraint firstItem="5Q0-ue-Xbq" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="85" id="PPH-Az-1x9"/>
+                <constraint firstItem="4G7-f7-HQf" firstAttribute="top" secondItem="5Q0-ue-Xbq" secondAttribute="bottom" constant="68" id="Uxd-5a-x8j"/>
+                <constraint firstAttribute="trailing" secondItem="4G7-f7-HQf" secondAttribute="trailing" id="ftQ-QS-FfL"/>
+                <constraint firstAttribute="bottom" secondItem="4G7-f7-HQf" secondAttribute="bottom" id="n53-0u-ajX"/>
+                <constraint firstItem="5Q0-ue-Xbq" firstAttribute="centerX" secondItem="4G7-f7-HQf" secondAttribute="centerX" id="qDr-TY-iIE"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
