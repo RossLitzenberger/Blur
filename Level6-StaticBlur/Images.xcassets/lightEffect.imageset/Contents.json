@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "actual.png"
+      "filename" : "lightEffect.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "actual-1.png"
+      "filename" : "lightEffect-1.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

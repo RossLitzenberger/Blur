@@ -89,7 +89,7 @@ typedef struct RGBAPixel {
         UIImage *actual = statsVC.backgroundView.image;
         
         // Extra light effect expected with the badges loading
-        UIImage *expected = [UIImage imageNamed:@"extraLightEffect"];
+        UIImage *expected = [UIImage imageNamed:@"lightEffect"];
       
         BOOL result1 = [self compareReferenceImage:actual toImage:expected];
       
